@@ -1,1 +1,2 @@
 0.7.0.0
+https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Files/AlignedResourcesToolkit.Wpf_Version_0.7.0.0.exe?raw=true
