@@ -1,2 +1,2 @@
 1.1.0.0
-https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Files/ClearSuite_Version_1.1.exe?raw=true
+https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Files/ClearSuite_Version-1.1.exe?raw=true
