@@ -1,0 +1,8 @@
+# Full Name, Short Name, Version, Release Date, License, Link
+Christian Standard Bible; CSB; 1; 03/26/2021; private; https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Glosses/CSB.gloss.gz?raw=true
+English Standard Bible; ESV; 1; 03/26/2021; private; https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Glosses/ESV.gloss.gz?raw=true
+Matupi Chin Standard Bible; HLTGBI; 1; 03/26/2021; public; https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Glosses/HLTGBI.gloss.gz?raw=true
+King James Bible; KJV; 1; 03/26/2021; public; https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Glosses/KJV.gloss.gz?raw=true
+Lexham English Bible; LEB; 1; 03/26/2021; private; https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Glosses/LEB.gloss.gz?raw=true
+New American Standard Bible; NASB_95; 1; 03/26/2021; private; https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Glosses/NASB_95.gloss.gz?raw=true
+NET Bible; NET; 1; 03/26/2021; private; https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Glosses/NET.gloss.gz?raw=true
