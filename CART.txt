@@ -1,2 +1,2 @@
-1.8.2.0
-https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Files/ClearSuiteInstaller_1.8.2.exe?raw=true
+1.8.4.0
+https://github.com/gbin-org/CLEAR_External_Releases/blob/main/Files/ClearSuiteInstaller_1.8.4.exe?raw=true
