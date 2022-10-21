@@ -1,0 +1,71 @@
+{
+    "Version": "0.4.0.0",
+    "ReleaseDate": "10/21/2022 2:26:44 PM",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Alignments can now be added to the EnhancedView.  Pressing shift while hovering over tokens in either source or target will highlight the corresponding aligned token in the other related corpus. Alt hover will clear selection."
+      },
+      {
+        "NoteType": 0,
+        "Note": "On adding in a new Paratext Corpus, you can now search for the corpus name in the dropdown box."
+      },
+      {
+        "NoteType": 0,
+        "Note": "On adding in a new Paratext Corpus, the corpus is automatically scanned for USFM book/chapter/verse issues which may cause problems for the user.  Any errors are reported back and the user can copy them to the clipboard."
+      },
+      {
+        "NoteType": 0,
+        "Note": "On clicking the Pins verse references button the appropriate verse text appears.  Clicking on a verse reference in this dialog changes the current book, chapter, and verse in Dashboard and Paratext."
+      },
+      {
+        "NoteType": 0,
+        "Note": "Pins, Biblical Terms, and the Background Task Status display now have context menus with a copy ability."
+      },
+      {
+        "NoteType": 4,
+        "Note": "Updated the Paratext API plugin to the latest stable version."
+      },
+      {
+        "NoteType": 4,
+        "Note": "Update the way that the EnhancedView’s listview control was handling the currently selected listviewitem which was impacting the notes handling."
+      },
+      {
+        "NoteType": 4,
+        "Note": "Modified the way parallel verses worked by converting directly to VerseDisplayViewModel; code reduction."
+      },
+      {
+        "NoteType": 4,
+        "Note": "Visual updates to Pins (all verse reference buttons now visible, added progress bar on verse reference button press, restyling of verse reference dialog)"
+      },
+      {
+        "NoteType": 4,
+        "Note": "Visual and behavior changes to timer.  Coloring is now based on a proportion of the given time, clicking on the timer no longer clears its contents, typing in timer darkens text, and pressing Enter can now be used to start/stop timer."
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix for parallel verses not being deleted from the EnhancedView and verse change that was spawning off new VerseDisplays in that window."
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix for offset always showing the same parallel verse when offset > 0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Words dropping out on the Parallel VerseDisplay"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Unhandled threading error on NoteDisplay that caused the note to not update in the VerseDisplay control."
+      },
+      {
+        "NoteType": 1,
+        "Note": "Biblical terms now loaded even when looking at it."
+      },
+      {
+        "NoteType": 5,
+        "Note": "There are upcoming changes to Notes that are not included in this release."
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  }
