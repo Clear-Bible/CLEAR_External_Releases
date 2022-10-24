@@ -23,27 +23,27 @@
         "Note": "Pins, Biblical Terms, and the Background Task Status display now have context menus with a copy ability."
       },
       {
-        "NoteType": 4,
+        "NoteType": 3,
         "Note": "Updated the Paratext API plugin to the latest stable version."
       },
       {
-        "NoteType": 4,
+        "NoteType": 3,
         "Note": "Update the way that the EnhancedView’s listview control was handling the currently selected listviewitem which was impacting the notes handling."
       },
       {
-        "NoteType": 4,
+        "NoteType": 3,
         "Note": "Modified the way parallel verses worked by converting directly to VerseDisplayViewModel; code reduction."
       },
       {
-        "NoteType": 4,
+        "NoteType": 3,
         "Note": "Visual updates to Pins (all verse reference buttons now visible, added progress bar on verse reference button press, restyling of verse reference dialog)"
       },
       {
-        "NoteType": 4,
+        "NoteType": 3,
         "Note": "Visual and behavior changes to timer.  Coloring is now based on a proportion of the given time, clicking on the timer no longer clears its contents, typing in timer darkens text, and pressing Enter can now be used to start/stop timer."
       },
       {
-        "NoteType": 1,
+        "NoteType": 3,
         "Note": "Fix for parallel verses not being deleted from the EnhancedView and verse change that was spawning off new VerseDisplays in that window."
       },
       {
@@ -63,7 +63,7 @@
         "Note": "Biblical terms now loaded even when looking at it."
       },
       {
-        "NoteType": 5,
+        "NoteType": 4,
         "Note": "There are upcoming changes to Notes that are not included in this release."
       }
     ],
