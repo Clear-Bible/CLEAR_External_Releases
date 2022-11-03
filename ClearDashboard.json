@@ -1,7 +1,47 @@
 {
-  "Version": "0.4.1.0",
-  "ReleaseDate": "10/31/2022",
+  "Version": "0.4.2.0",
+  "ReleaseDate": "11/3/2022",
   "ReleaseNotes": [
+    {
+      "NoteType": 0,
+      "Note": "Additional modeling of the Notes Threading framework."
+    },
+    {
+      "NoteType": 0,
+      "Note": "Recognition of Daughter project types in the Project Design Surface"
+    },
+    {
+      "NoteType": 0,
+      "Note": "Right clicking on a word in the Enhanced view allows the option to filter Pins by that word."
+    },
+    {
+      "NoteType": 0,
+      "Note": "Right clicking on a word (or group of selected words) in the Enhanced view allows the option to quickly translate that word using Google translate."
+    },
+    {
+      "NoteType": 0,
+      "Note": "Tooltip in pins on XmlSource badges with the path of the source file for the data"
+    },
+    {
+      "NoteType": 2,
+      "Note": "The word senses button in word meanings now appears disabled when total senses = 1"
+    },
+    {
+      "NoteType": 1,
+      "Note": "Fix - Removed ILogger casting issue"
+    },
+    {
+      "NoteType": 1,
+      "Note": "Fix - Fixed issue where using Project/All radio buttons in Biblical Terms would delete all rows."
+    },
+    {
+      "NoteType": 1,
+      "Note": "Fix - Fixed issue where Content was not appearing in the right window of Biblical Terms."
+    },
+    {
+      "NoteType": 1,
+      "Note": "Fix - Fixed issue where some Verse Ref buttons appear to have no verse refs when in fact they did.  This fix also sped up Pins loading times."
+    },
     {
       "NoteType": 0,
       "Note": "About box which shows version information"
@@ -15,6 +55,10 @@
       "Note": "Ability to send end user\u2019s Dashboard log files, Paratext Log files and the users computer information; including encryption status"
     },
     {
+      "NoteType": 0,
+      "Note": "Additional modeling of the Notes framework."
+    },
+    {
       "NoteType": 3,
       "Note": "Did internal testing on the effects of drive encryption on database usage.  The use of drive encryption only slows down Dashboard by a relatively small percentage."
     },
@@ -25,10 +69,6 @@
     {
       "NoteType": 3,
       "Note": "Word senses button in word meanings control enabled."
-    },
-    {
-      "NoteType": 0,
-      "Note": "Additional modeling of the Notes framework."
     },
     {
       "NoteType": 3,
@@ -51,5 +91,5 @@
       "Note": "Fix - Fixed issue where sometimes changing chapters via the verse up/down button in the BCV control doesn\u2019t result in the correct BCV."
     }
   ],
-  "DownloadLink": ""
+  "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
 }
