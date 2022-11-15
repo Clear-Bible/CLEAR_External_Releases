@@ -1,0 +1,55 @@
+{
+  "Version": "0.4.3.0",
+  "ReleaseDate": "11/11/2022",
+  "ReleaseNotes": [
+    {
+      "NoteType": 0,
+      "Note": "Create Project button when searched project doesn\u2019t appear"
+    },
+    {
+      "NoteType": 2,
+      "Note": "Enhanced View now has been wired up to show the preferred FontFamily as designated by the project settings in Paratext"
+    },
+    {
+      "NoteType": 1,
+      "Note": "Fix - Hebrew is now Right to Left in alignment verse displays"
+    },
+    {
+      "NoteType": 1,
+      "Note": "Fix - verse display now updates when the project consists of just a NT corpus from Paratext that was added when the Current Bcv was set to be in the OT"
+    },
+    {
+      "NoteType": 1,
+      "Note": "Fix - Handled pins exceptions in the case of a new paratext project that might lack certain datasets"
+    },
+    {
+      "NoteType": 0,
+      "Note": "Plumbed up the project\u2019s default font from the Paratext\u2019s settings through to the Enhanced View.  Note, currently the VerseDisplay component still does not correctly display the right font."
+    },
+    {
+      "NoteType": 0,
+      "Note": "On the Creation of Parallel Alignments/Interlinear dialogs, there is a new button on the first wizard page by which the user can just run through all the default settings without user interaction."
+    },
+    {
+      "NoteType": 0,
+      "Note": "Note is selected event"
+    },
+    {
+      "NoteType": 1,
+      "Note": "Fix - Multi-Deselect issue fixed"
+    },
+    {
+      "NoteType": 3,
+      "Note": "Notes display and interactivity"
+    },
+    {
+      "NoteType": 0,
+      "Note": "New menu Help\\Show Logs which will launch the current log file into a new window for display"
+    },
+    {
+      "NoteType": 4,
+      "Note": "There are upcoming changes to Notes that are not included in this release."
+    }
+  ],
+  "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+}
