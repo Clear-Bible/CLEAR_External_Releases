@@ -24,11 +24,6 @@
         "VersionNumber": "0.4.4.0"
       },
       {
-        "NoteType": 2,
-        "Note": "Added AppVersion column to project database",
-        "VersionNumber": "0.4.4.0"
-      },
-      {
         "NoteType": 1,
         "Note": "Fix - Resolved issue where Hebrew did not display right to left",
         "VersionNumber": "0.4.4.0"
@@ -36,6 +31,11 @@
       {
         "NoteType": 1,
         "Note": "Fix - The Enhanced VIew would sometimes report that a corpus was not within a verse range when it actually was.",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 5,
+        "Note": "Change - Added AppVersion column to project database",
         "VersionNumber": "0.4.4.0"
       }
     ],
