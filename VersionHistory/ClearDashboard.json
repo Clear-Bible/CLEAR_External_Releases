@@ -1,11 +1,41 @@
 [
   {
     "Version": "0.4.4.0",
-    "ReleaseDate": "11/29/2022",
+    "ReleaseDate": "12/5/2022",
     "ReleaseNotes": [
       {
-        "NoteType": 5,
-        "Note": "Change - This is a test message",
+        "NoteType": 0,
+        "Note": "Project Version number to start up.  Red means that the project is not compatible with the current version of dashboard.",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Marble tab that shows visuals on how a word is commonly translated",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Replaced the Word Meanings panel with the MARBLE panel.  This is a much deeper dive into the SDBH/SDBG database unveiling lots of additional data for each word.  Note that this panel is a work in progress.",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Release Notes window now appears on the startup screen and includes full history of release notes separated by version number.  Also now notes when there is a breaking change",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Added AppVersion column to project database",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resolved issue where Hebrew did not display right to left",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The Enhanced VIew would sometimes report that a corpus was not within a verse range when it actually was.",
         "VersionNumber": "0.4.4.0"
       }
     ],
@@ -13,7 +43,7 @@
   },
   {
     "Version": "0.4.3.0",
-    "ReleaseDate": "11/29/2022",
+    "ReleaseDate": "12/5/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -80,7 +110,7 @@
   },
   {
     "Version": "0.4.2.0",
-    "ReleaseDate": "11/29/2022",
+    "ReleaseDate": "12/5/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -137,7 +167,7 @@
   },
   {
     "Version": "0.4.1.0",
-    "ReleaseDate": "11/29/2022",
+    "ReleaseDate": "12/5/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
