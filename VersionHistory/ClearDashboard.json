@@ -1,55 +1,297 @@
-{
-  "Version": "0.4.3.0",
-  "ReleaseDate": "11/11/2022",
-  "ReleaseNotes": [
-    {
-      "NoteType": 0,
-      "Note": "Create Project button when searched project doesn\u2019t appear"
-    },
-    {
-      "NoteType": 2,
-      "Note": "Enhanced View now has been wired up to show the preferred FontFamily as designated by the project settings in Paratext"
-    },
-    {
-      "NoteType": 1,
-      "Note": "Fix - Hebrew is now Right to Left in alignment verse displays"
-    },
-    {
-      "NoteType": 1,
-      "Note": "Fix - verse display now updates when the project consists of just a NT corpus from Paratext that was added when the Current Bcv was set to be in the OT"
-    },
-    {
-      "NoteType": 1,
-      "Note": "Fix - Handled pins exceptions in the case of a new paratext project that might lack certain datasets"
-    },
-    {
-      "NoteType": 0,
-      "Note": "Plumbed up the project\u2019s default font from the Paratext\u2019s settings through to the Enhanced View.  Note, currently the VerseDisplay component still does not correctly display the right font."
-    },
-    {
-      "NoteType": 0,
-      "Note": "On the Creation of Parallel Alignments/Interlinear dialogs, there is a new button on the first wizard page by which the user can just run through all the default settings without user interaction."
-    },
-    {
-      "NoteType": 0,
-      "Note": "Note is selected event"
-    },
-    {
-      "NoteType": 1,
-      "Note": "Fix - Multi-Deselect issue fixed"
-    },
-    {
-      "NoteType": 3,
-      "Note": "Notes display and interactivity"
-    },
-    {
-      "NoteType": 0,
-      "Note": "New menu Help\\Show Logs which will launch the current log file into a new window for display"
-    },
-    {
-      "NoteType": 4,
-      "Note": "There are upcoming changes to Notes that are not included in this release."
-    }
-  ],
-  "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
-}
+[
+  {
+    "Version": "0.4.5.0",
+    "ReleaseDate": "12/13/2022",
+    "ReleaseNotes": [
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resolved right to left issues and word groupings",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Pins verse references now have proper font",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to push a note to Paratext.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to select which books of a corpus you want to import into Dashboard.  This gives the end user the ability to skip over work-in-progress books with USFM errors.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "MARBLE panel includes more information on the parts-of-speech",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "The Enhanced Views now load in parallel instead of sequentially.  This significantly improves project load speeds.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Text Collections to include styling from Paratext",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 4,
+        "Note": "MARBLE source/english word searching",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 4,
+        "Note": "The bug in the trees pertaining to unicode, where a character\u0027s modifying unicode character is in the next leaf, resulting in what looks like a \u0027zero\u0027 with a modifying character above/below, has not been resolved.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 4,
+        "Note": "Malachi 4 is not being versified properly.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 5,
+        "Note": "Change - Changes were made to the database schema to allow for only selecting certain books to be tokenized",
+        "VersionNumber": "0.4.5.0"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  },
+  {
+    "Version": "0.4.4.0",
+    "ReleaseDate": "12/13/2022",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Project Version number to start up.  Red means that the project is not compatible with the current version of dashboard.",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Marble tab that shows visuals on how a word is commonly translated",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Replaced the Word Meanings panel with the MARBLE panel.  This is a much deeper dive into the SDBH/SDBG database unveiling lots of additional data for each word.  Note that this panel is a work in progress.",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Release Notes window now appears on the startup screen and includes full history of release notes separated by version number.  Also now notes when there is a breaking change",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resolved issue where Hebrew did not display right to left",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The Enhanced VIew would sometimes report that a corpus was not within a verse range when it actually was.",
+        "VersionNumber": "0.4.4.0"
+      },
+      {
+        "NoteType": 5,
+        "Note": "Change - Added AppVersion column to project database",
+        "VersionNumber": "0.4.4.0"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  },
+  {
+    "Version": "0.4.3.0",
+    "ReleaseDate": "12/13/2022",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Create Project button when searched project doesn\u2019t appear",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Enhanced View now has been wired up to show the preferred FontFamily as designated by the project settings in Paratext",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Hebrew is now Right to Left in alignment verse displays",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - verse display now updates when the project consists of just a NT corpus from Paratext that was added when the Current Bcv was set to be in the OT",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Handled pins exceptions in the case of a new paratext project that might lack certain datasets",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Plumbed up the project\u2019s default font from the Paratext\u2019s settings through to the Enhanced View.  Note, currently the VerseDisplay component still does not correctly display the right font.",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "On the Creation of Parallel Alignments/Interlinear dialogs, there is a new button on the first wizard page by which the user can just run through all the default settings without user interaction.",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Note is selected event",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Multi-Deselect issue fixed",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Notes display and interactivity",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "New menu Help\\Show Logs which will launch the current log file into a new window for display",
+        "VersionNumber": "0.4.3.0"
+      },
+      {
+        "NoteType": 4,
+        "Note": "There are upcoming changes to Notes that are not included in this release.",
+        "VersionNumber": "0.4.3.0"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  },
+  {
+    "Version": "0.4.2.0",
+    "ReleaseDate": "12/13/2022",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Additional modeling of the Notes Threading framework.",
+        "VersionNumber": "0.4.2.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Recognition of Daughter project types in the Project Design Surface",
+        "VersionNumber": "0.4.2.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Right clicking on a word in the Enhanced view allows the option to filter Pins by that word.",
+        "VersionNumber": "0.4.2.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Right clicking on a word (or group of selected words) in the Enhanced view allows the option to quickly translate that word using Google translate.",
+        "VersionNumber": "0.4.2.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Tooltip in pins on XmlSource badges with the path of the source file for the data",
+        "VersionNumber": "0.4.2.0"
+      },
+      {
+        "NoteType": 2,
+        "Note": "The word senses button in word meanings now appears disabled when total senses = 1",
+        "VersionNumber": "0.4.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Removed ILogger casting issue",
+        "VersionNumber": "0.4.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where using Project/All radio buttons in Biblical Terms would delete all rows.",
+        "VersionNumber": "0.4.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where Content was not appearing in the right window of Biblical Terms.",
+        "VersionNumber": "0.4.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where some Verse Ref buttons appear to have no verse refs when in fact they did.  This fix also sped up Pins loading times.",
+        "VersionNumber": "0.4.2.0"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  },
+  {
+    "Version": "0.4.1.0",
+    "ReleaseDate": "12/13/2022",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "About box which shows version information",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Dashboard now checks for updates and displays this Change Log information about what has been added, updated, changed, bug fixed or deferred.",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to send end user\u2019s Dashboard log files, Paratext Log files and the users computer information; including encryption status",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Additional modeling of the Notes framework.",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Did internal testing on the effects of drive encryption on database usage.  The use of drive encryption only slows down Dashboard by a relatively small percentage.",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Pins now includes verse references drawn from Paratext\u2019s Interlinear_*.xml files",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Word senses button in word meanings control enabled.",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "the verse display code in regard to notes, labels and mouse events.",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed shutdown/dispose exception handler",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed never-ending progress wheel when clicking on the verse reference button in Pins.",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where spamming BCV control in Paratext or Dashboard results in constant change of current BCV.",
+        "VersionNumber": "0.4.1.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where sometimes changing chapters via the verse up/down button in the BCV control doesn\u2019t result in the correct BCV.",
+        "VersionNumber": "0.4.1.0"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  }
+]
