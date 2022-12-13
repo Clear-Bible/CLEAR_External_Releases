@@ -1,7 +1,69 @@
 [
   {
+    "Version": "0.4.5.0",
+    "ReleaseDate": "12/13/2022",
+    "ReleaseNotes": [
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resolved right to left issues and word groupings",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Pins verse references now have proper font",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to push a note to Paratext.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to select which books of a corpus you want to import into Dashboard.  This gives the end user the ability to skip over work-in-progress books with USFM errors.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "MARBLE panel includes more information on the parts-of-speech",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "The Enhanced Views now load in parallel instead of sequentially.  This significantly improves project load speeds.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Text Collections to include styling from Paratext",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 4,
+        "Note": "MARBLE source/english word searching",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 4,
+        "Note": "The bug in the trees pertaining to unicode, where a character\u0027s modifying unicode character is in the next leaf, resulting in what looks like a \u0027zero\u0027 with a modifying character above/below, has not been resolved.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 4,
+        "Note": "Malachi 4 is not being versified properly.",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
+        "NoteType": 5,
+        "Note": "Change - Changes were made to the database schema to allow for only selecting certain books to be tokenized",
+        "VersionNumber": "0.4.5.0"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  },
+  {
     "Version": "0.4.4.0",
-    "ReleaseDate": "12/5/2022",
+    "ReleaseDate": "12/13/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -43,7 +105,7 @@
   },
   {
     "Version": "0.4.3.0",
-    "ReleaseDate": "12/5/2022",
+    "ReleaseDate": "12/13/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -110,7 +172,7 @@
   },
   {
     "Version": "0.4.2.0",
-    "ReleaseDate": "12/5/2022",
+    "ReleaseDate": "12/13/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -167,7 +229,7 @@
   },
   {
     "Version": "0.4.1.0",
-    "ReleaseDate": "12/5/2022",
+    "ReleaseDate": "12/13/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
