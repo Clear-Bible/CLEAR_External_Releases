@@ -54,6 +54,11 @@
         "VersionNumber": "0.4.5.0"
       },
       {
+        "NoteType": 4,
+        "Note": "The Dashboard book chapter verse control does not affect Paratext",
+        "VersionNumber": "0.4.5.0"
+      },
+      {
         "NoteType": 5,
         "Note": "Change - Changes were made to the database schema to allow for only selecting certain books to be tokenized",
         "VersionNumber": "0.4.5.0"
