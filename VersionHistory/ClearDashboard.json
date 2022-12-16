@@ -55,7 +55,7 @@
       },
       {
         "NoteType": 4,
-        "Note": "The Dashboard book chapter verse control does not affect Paratext",
+        "Note": "The Dashboard book chapter verse control is set by default to not sync with Paratext.",
         "VersionNumber": "0.4.5.0"
       },
       {
