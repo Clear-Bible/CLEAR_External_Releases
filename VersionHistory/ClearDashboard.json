@@ -1,7 +1,19 @@
 [
   {
+    "Version": "0.4.6.0",
+    "ReleaseDate": "12/21/2022",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Ability to update which books a corpus contains after it has been initially tokenized",
+        "VersionNumber": "0.4.6.0"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  },
+  {
     "Version": "0.4.5.1",
-    "ReleaseDate": "12/16/2022",
+    "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -38,7 +50,7 @@
   },
   {
     "Version": "0.4.5.0",
-    "ReleaseDate": "12/16/2022",
+    "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -105,7 +117,7 @@
   },
   {
     "Version": "0.4.4.0",
-    "ReleaseDate": "12/16/2022",
+    "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -147,7 +159,7 @@
   },
   {
     "Version": "0.4.3.0",
-    "ReleaseDate": "12/16/2022",
+    "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -214,7 +226,7 @@
   },
   {
     "Version": "0.4.2.0",
-    "ReleaseDate": "12/16/2022",
+    "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -271,7 +283,7 @@
   },
   {
     "Version": "0.4.1.0",
-    "ReleaseDate": "12/16/2022",
+    "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
         "NoteType": 0,
