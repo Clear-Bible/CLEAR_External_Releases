@@ -1,6 +1,7 @@
 [
   {
     "Version": "0.4.6.0",
+    "VersionType": 0,
     "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
@@ -13,6 +14,7 @@
   },
   {
     "Version": "0.4.5.1",
+    "VersionType": 0,
     "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
@@ -50,6 +52,7 @@
   },
   {
     "Version": "0.4.5.0",
+    "VersionType": 0,
     "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
@@ -104,7 +107,7 @@
       },
       {
         "NoteType": 4,
-        "Note": "The Dashboard book chapter verse control is set by default to not sync with Paratext.",
+        "Note": "The Dashboard book chapter verse control does not affect Paratext",
         "VersionNumber": "0.4.5.0"
       },
       {
@@ -117,6 +120,7 @@
   },
   {
     "Version": "0.4.4.0",
+    "VersionType": 0,
     "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
@@ -159,6 +163,7 @@
   },
   {
     "Version": "0.4.3.0",
+    "VersionType": 0,
     "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
@@ -226,6 +231,7 @@
   },
   {
     "Version": "0.4.2.0",
+    "VersionType": 0,
     "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
@@ -283,6 +289,7 @@
   },
   {
     "Version": "0.4.1.0",
+    "VersionType": 0,
     "ReleaseDate": "12/21/2022",
     "ReleaseNotes": [
       {
