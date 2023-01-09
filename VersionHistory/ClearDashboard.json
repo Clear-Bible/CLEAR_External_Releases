@@ -1,7 +1,124 @@
 [
   {
+    "Version": "0.4.6.3",
+    "VersionType": 1,
+    "ReleaseDate": "1/9/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Ability to star correct sense id for current verse in Marble tab",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 0,
+        "Note": "EnhancedView font settings will now persist between sessions",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 0,
+        "Note": "MirrorView scaling slider",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Made Pins, Biblical Terms, and Marble tabs more friendly when using the MirrorView",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Made Pan and Zoom Control easier to move around",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Restyled many buttons",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where searching in Biblical Terms when set to \u201CAll\u201D threw an exception",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where long verses in the Biblical Terms tab weren\u2019t scrollable",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where exception is thrown when clicking on verse ref in Biblical Terms",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where opening TextCollections crashed application",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed cut off text in TextCollections",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed issue where large text in Pins would get cut off",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - resolved issue where the menus for a node in the Project Design Surface were not created properly in IsResource was null",
+        "VersionNumber": "0.4.6.3"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed missing World Clock icons",
+        "VersionNumber": "0.4.6.3"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  },
+  {
+    "Version": "0.4.6.1",
+    "VersionType": 1,
+    "ReleaseDate": "1/9/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "In the MARBLE window, the user can now do word searches of the Hebrew and Greek.",
+        "VersionNumber": "0.4.6.1"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Since the last refactoring effort, the font family was no longer showing up properly for the source/target corpus.  This build fixes that.",
+        "VersionNumber": "0.4.6.1"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The Enhanced View that allowed the user to control the font size, etc of the verses below became broken in the refactoring process.  This has been repaired in this build.",
+        "VersionNumber": "0.4.6.1"
+      },
+      {
+        "NoteType": 3,
+        "Note": "In the interlinear view, the words that do not have alignments associated with them no longer show a blank for the gloss but instead an underlined area (\u201C__\u201D)",
+        "VersionNumber": "0.4.6.1"
+      },
+      {
+        "NoteType": 4,
+        "Note": "There are known issues with the interlinear view where there will be two of the same words but only one of them will have a gloss associated with it.  The bug has been found and will make it into the next release.",
+        "VersionNumber": "0.4.6.1"
+      },
+      {
+        "NoteType": 4,
+        "Note": "In the MARBLE window, the interface doesn\u2019t flag the current sense yet.  Likewise, in the description field, the links haven\u2019t been rendered yet.",
+        "VersionNumber": "0.4.6.1"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  },
+  {
     "Version": "0.4.6.0",
-    "ReleaseDate": "12/21/2022",
+    "VersionType": 1,
+    "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -13,7 +130,8 @@
   },
   {
     "Version": "0.4.5.1",
-    "ReleaseDate": "12/21/2022",
+    "VersionType": 1,
+    "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -50,7 +168,8 @@
   },
   {
     "Version": "0.4.5.0",
-    "ReleaseDate": "12/21/2022",
+    "VersionType": 1,
+    "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -104,7 +223,7 @@
       },
       {
         "NoteType": 4,
-        "Note": "The Dashboard book chapter verse control is set by default to not sync with Paratext.",
+        "Note": "The Dashboard book chapter verse control does not affect Paratext",
         "VersionNumber": "0.4.5.0"
       },
       {
@@ -117,7 +236,8 @@
   },
   {
     "Version": "0.4.4.0",
-    "ReleaseDate": "12/21/2022",
+    "VersionType": 1,
+    "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -159,7 +279,8 @@
   },
   {
     "Version": "0.4.3.0",
-    "ReleaseDate": "12/21/2022",
+    "VersionType": 1,
+    "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -226,7 +347,8 @@
   },
   {
     "Version": "0.4.2.0",
-    "ReleaseDate": "12/21/2022",
+    "VersionType": 1,
+    "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -283,7 +405,8 @@
   },
   {
     "Version": "0.4.1.0",
-    "ReleaseDate": "12/21/2022",
+    "VersionType": 1,
+    "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
