@@ -1,6 +1,7 @@
 [
   {
     "Version": "0.4.6.3",
+    "VersionType": 1,
     "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
@@ -78,6 +79,7 @@
   },
   {
     "Version": "0.4.6.1",
+    "VersionType": 1,
     "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
@@ -115,6 +117,7 @@
   },
   {
     "Version": "0.4.6.0",
+    "VersionType": 1,
     "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
@@ -127,6 +130,7 @@
   },
   {
     "Version": "0.4.5.1",
+    "VersionType": 1,
     "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
@@ -164,6 +168,7 @@
   },
   {
     "Version": "0.4.5.0",
+    "VersionType": 1,
     "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
@@ -231,6 +236,7 @@
   },
   {
     "Version": "0.4.4.0",
+    "VersionType": 1,
     "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
@@ -273,6 +279,7 @@
   },
   {
     "Version": "0.4.3.0",
+    "VersionType": 1,
     "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
@@ -340,6 +347,7 @@
   },
   {
     "Version": "0.4.2.0",
+    "VersionType": 1,
     "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
@@ -397,6 +405,7 @@
   },
   {
     "Version": "0.4.1.0",
+    "VersionType": 1,
     "ReleaseDate": "1/9/2023",
     "ReleaseNotes": [
       {
