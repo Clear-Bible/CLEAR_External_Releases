@@ -1,8 +1,109 @@
 [
   {
+    "Version": "0.4.7.1",
+    "VersionType": 1,
+    "ReleaseDate": "1/23/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 3,
+        "Note": "Verse change is now much faster",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Known issues with Dashboard are now reported in the Change Log",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Project Design Surface and Notes panes now have adjustable widths",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Smooth scrolling and mouse wheel scrolling has been added to many areas of the application",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 0,
+        "Note": "A placeholder documentation pdf that lands on the user\u2019s desktop when installed",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 2,
+        "Note": "There is now only one installer that combines both the Dashboard and Paratext Plugins.",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Corpus Nodes can no longer leave the whitespace of the project design surface and zooming is now more precise",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Moved Marble pie chart to collapsed expander",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Other more minor UI changes",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Made BCV sync default",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Better reporting of CPU and Monitor resolution in the Send Message to Clear menu item.",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Correctly gets a screenshot of the Dashboard window even if the application is maximized.",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resolved errors that occurred when running Dashboard without an internet connection",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resolved issue where Dashboard said Paratext wasn\u0027t running though it was",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Pins verse ref window no longer closes instantly when there is only 1 verse in the window",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Solved issue where deleting a corpus disabled macula buttons",
+        "VersionNumber": "0.4.7.1"
+      },
+      {
+        "NoteType": 4,
+        "Note": "Composites aren\u2019t making it into this release.",
+        "VersionNumber": "0.4.7.1"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": [
+      "There is a bug with Paratext which causes the Paratext to throw the error: \u201CParatext cannot continue because an essential part of Paratext is missing\u201D.  To get around this bug, close all instances of any interlinearizer windows first.  Then restart Paratext and connect up your Dashboard Plugin window.  After that, you should be able to launch a new interlinearizer window.  This Paratext bug is slated to be resolved in their 9.3.103.8 release.",
+      "Sometimes the user has to restart Dashboard because the ProjectPicker won\u2019t scroll.  This most recently happened to me after reinstalling the ParatextPlugin and starting up Paratext while Dashboard is already open (Paratext must be open first?).",
+      "If the user needs to change the project that Paratex is connected to, in Paratext, they must first close any existing instances of the Dashboard Plugin.  Then open a new instance from the project they want to connect to.  Then finally, restart both Paratext and Dashboard.",
+      "Currently, only the FastAlign SMT is supported during the parallelization step.",
+      "Not everything is localized.",
+      "There is a display issue with the Hebrew text where characters sometimes are out of order that is being worked on."
+    ]
+  },
+  {
     "Version": "0.4.6.3",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "1/23/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -75,12 +176,13 @@
         "VersionNumber": "0.4.6.3"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "0.4.6.1",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "1/23/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -113,12 +215,13 @@
         "VersionNumber": "0.4.6.1"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "0.4.6.0",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "1/23/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -126,12 +229,13 @@
         "VersionNumber": "0.4.6.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "0.4.5.1",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "1/23/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -164,12 +268,13 @@
         "VersionNumber": "0.4.5.1"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "0.4.5.0",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "1/23/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -232,12 +337,13 @@
         "VersionNumber": "0.4.5.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "0.4.4.0",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "1/23/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -275,12 +381,13 @@
         "VersionNumber": "0.4.4.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "0.4.3.0",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "1/23/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -343,12 +450,13 @@
         "VersionNumber": "0.4.3.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "0.4.2.0",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "1/23/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -401,12 +509,13 @@
         "VersionNumber": "0.4.2.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "0.4.1.0",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "1/23/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -469,6 +578,7 @@
         "VersionNumber": "0.4.1.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   }
 ]
