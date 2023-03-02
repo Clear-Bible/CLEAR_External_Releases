@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "Version": "1.0.0.0",
+    "VersionType": 1,
+    "ReleaseDate": "3/2/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Experimental AQUA interfaces have been added. This is very much a work-in-progress experimentation and will be refined as the project progresses.",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Experimental alignment editing and deleting functionality has been added to this release. When there is an alignment between a source composite token and a target token in another verse, highlighting the tokens only works if you shift-hover over the target token in the other verse. To create an alignment, click on the source token (composite or regular), then shift-click on the target token. You will need to shift-hover to see the newly added alignment. To delete an alignment, shift hover to find the alignment. You can delete the alignment form either the source or target token.",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "New dialog for interlinear changes where lexemes can be added to translations.",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "shortcut to open list of projects with Ctrl \u002B O",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 2,
+        "Note": "added mouse wheel scrolling for elements in the Marble pane",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Allow corpora to be deleted when the background status is completed yet still in the background status window",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - On the interlinear approval/modification dialog, clicking on the \u201CApply Translation\u201D button now will work at properly approving the selected word even if no changes have been made.",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Addressed copy issues in Biblical Terms pane",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - addressed issues in TextCollections including RTL languages and missing TND content",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Some texts in TextCollections weren\u2019t being highlighted",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 4,
+        "Note": "Notes list with filtering and a way to quickly mark notes \u2018resolved\u2019 will be released in a subsequent version.",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 4,
+        "Note": "Notes sharing will be released in a subsequent version.",
+        "VersionNumber": "1.0.0.0"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  }
+]
