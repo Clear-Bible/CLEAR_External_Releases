@@ -1,7 +1,7 @@
 [
   {
     "Version": "1.0.4.0",
-    "VersionType": 1,
+    "VersionType": 0,
     "ReleaseDate": "3/28/2023",
     "ReleaseNotes": [
       {
@@ -42,7 +42,7 @@
   },
   {
     "Version": "1.0.3.2",
-    "VersionType": 1,
+    "VersionType": 0,
     "ReleaseDate": "3/28/2023",
     "ReleaseNotes": [
       {
@@ -71,7 +71,7 @@
   },
   {
     "Version": "1.0.2.0",
-    "VersionType": 1,
+    "VersionType": 0,
     "ReleaseDate": "3/28/2023",
     "ReleaseNotes": [
       {
@@ -135,7 +135,7 @@
   },
   {
     "Version": "1.0.1.0",
-    "VersionType": 1,
+    "VersionType": 0,
     "ReleaseDate": "3/28/2023",
     "ReleaseNotes": [
       {
@@ -184,7 +184,7 @@
   },
   {
     "Version": "1.0.0.0",
-    "VersionType": 1,
+    "VersionType": 0,
     "ReleaseDate": "3/28/2023",
     "ReleaseNotes": [
       {
