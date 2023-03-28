@@ -30,7 +30,15 @@
         "VersionNumber": "1.0.4.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": [
+      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
+      "If the user needs to change the project that Paratex is connected to, in Paratext, they must first close any existing instances of the Dashboard Plugin.  Then open a new instance from the project they want to connect to.  Then finally, restart both Paratext and Dashboard",
+      "Not everything is localized.",
+      "There is a display issue with the Hebrew text where characters sometimes are out of order that is being worked on.",
+      "In the EnhancedView mouse hover on the MACULA tokens, currently only shows the pronominal references for the OT. NT pronominal references will be coming in a future release.",
+      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type."
+    ]
   },
   {
     "Version": "1.0.3.2",
@@ -58,7 +66,8 @@
         "VersionNumber": "1.0.3.2"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "1.0.2.0",
@@ -121,7 +130,8 @@
         "VersionNumber": "1.0.2.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "1.0.1.0",
@@ -169,7 +179,8 @@
         "VersionNumber": "1.0.1.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "1.0.0.0",
@@ -237,6 +248,7 @@
         "VersionNumber": "1.0.0.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   }
 ]
