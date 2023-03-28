@@ -56,13 +56,13 @@
         "VersionNumber": "1.0.3.2"
       },
       {
-        "NoteType": 2,
-        "Note": "AQuA is now hidden in the settings menu and users must restart the application to enable/disable it",
+        "NoteType": 0,
+        "Note": "Added IsSymmeterized to AlignmentSet database model",
         "VersionNumber": "1.0.3.2"
       },
       {
-        "NoteType": 5,
-        "Note": "Change - Added IsSymmeterized to AlignmentSet database model",
+        "NoteType": 2,
+        "Note": "AQuA is now hidden in the settings menu and users must restart the application to enable/disable it",
         "VersionNumber": "1.0.3.2"
       }
     ],
