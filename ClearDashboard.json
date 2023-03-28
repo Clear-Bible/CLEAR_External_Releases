@@ -1,472 +1,240 @@
 [
   {
-    "Version": "0.4.6.3",
+    "Version": "1.0.4.0",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "3/28/2023",
     "ReleaseNotes": [
       {
-        "NoteType": 0,
-        "Note": "Ability to star correct sense id for current verse in Marble tab",
-        "VersionNumber": "0.4.6.3"
+        "NoteType": 1,
+        "Note": "Fix - Solved issue where all corpora were set to original versification",
+        "VersionNumber": "1.0.4.0"
       },
       {
-        "NoteType": 0,
-        "Note": "EnhancedView font settings will now persist between sessions",
-        "VersionNumber": "0.4.6.3"
-      },
-      {
-        "NoteType": 0,
-        "Note": "MirrorView scaling slider",
-        "VersionNumber": "0.4.6.3"
-      },
-      {
-        "NoteType": 3,
-        "Note": "Made Pins, Biblical Terms, and Marble tabs more friendly when using the MirrorView",
-        "VersionNumber": "0.4.6.3"
+        "NoteType": 1,
+        "Note": "Fix - Solved bug regarding not being able to add a label to a note sometimes",
+        "VersionNumber": "1.0.4.0"
       },
       {
         "NoteType": 2,
-        "Note": "Made Pan and Zoom Control easier to move around",
-        "VersionNumber": "0.4.6.3"
+        "Note": "Disabled Aqua on install and added menu item that allows enabling and disabling of aqua",
+        "VersionNumber": "1.0.4.0"
       },
       {
         "NoteType": 2,
-        "Note": "Restyled many buttons",
-        "VersionNumber": "0.4.6.3"
+        "Note": "removed new alignment/interlinear menu options",
+        "VersionNumber": "1.0.4.0"
       },
       {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where searching in Biblical Terms when set to \u201CAll\u201D threw an exception",
-        "VersionNumber": "0.4.6.3"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where long verses in the Biblical Terms tab weren\u2019t scrollable",
-        "VersionNumber": "0.4.6.3"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where exception is thrown when clicking on verse ref in Biblical Terms",
-        "VersionNumber": "0.4.6.3"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where opening TextCollections crashed application",
-        "VersionNumber": "0.4.6.3"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed cut off text in TextCollections",
-        "VersionNumber": "0.4.6.3"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where large text in Pins would get cut off",
-        "VersionNumber": "0.4.6.3"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - resolved issue where the menus for a node in the Project Design Surface were not created properly in IsResource was null",
-        "VersionNumber": "0.4.6.3"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed missing World Clock icons",
-        "VersionNumber": "0.4.6.3"
+        "NoteType": 3,
+        "Note": "Dashboard_Instructions.pdf",
+        "VersionNumber": "1.0.4.0"
       }
     ],
     "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
   },
   {
-    "Version": "0.4.6.1",
+    "Version": "1.0.3.2",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "3/28/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
-        "Note": "In the MARBLE window, the user can now do word searches of the Hebrew and Greek.",
-        "VersionNumber": "0.4.6.1"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Since the last refactoring effort, the font family was no longer showing up properly for the source/target corpus.  This build fixes that.",
-        "VersionNumber": "0.4.6.1"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - The Enhanced View that allowed the user to control the font size, etc of the verses below became broken in the refactoring process.  This has been repaired in this build.",
-        "VersionNumber": "0.4.6.1"
-      },
-      {
-        "NoteType": 3,
-        "Note": "In the interlinear view, the words that do not have alignments associated with them no longer show a blank for the gloss but instead an underlined area (\u201C__\u201D)",
-        "VersionNumber": "0.4.6.1"
-      },
-      {
-        "NoteType": 4,
-        "Note": "There are known issues with the interlinear view where there will be two of the same words but only one of them will have a gloss associated with it.  The bug has been found and will make it into the next release.",
-        "VersionNumber": "0.4.6.1"
-      },
-      {
-        "NoteType": 4,
-        "Note": "In the MARBLE window, the interface doesn\u2019t flag the current sense yet.  Likewise, in the description field, the links haven\u2019t been rendered yet.",
-        "VersionNumber": "0.4.6.1"
-      }
-    ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
-  },
-  {
-    "Version": "0.4.6.0",
-    "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
-    "ReleaseNotes": [
-      {
-        "NoteType": 0,
-        "Note": "Ability to update which books a corpus contains after it has been initially tokenized",
-        "VersionNumber": "0.4.6.0"
-      }
-    ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
-  },
-  {
-    "Version": "0.4.5.1",
-    "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
-    "ReleaseNotes": [
-      {
-        "NoteType": 0,
-        "Note": "Highlighting of current verse for translations in TextCollections panel",
-        "VersionNumber": "0.4.5.1"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - The BookChapterVerse control no longer is by default unsynced to Paratext",
-        "VersionNumber": "0.4.5.1"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fix for not being able to delete project from initial screen",
-        "VersionNumber": "0.4.5.1"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Multiple fixes for the PINS module related to how verse references were being sorted.  This module was throwing many errors and really slowing down the initial display.  Now rewritten to eliminate the errors and increase the speed.",
-        "VersionNumber": "0.4.5.1"
-      },
-      {
-        "NoteType": 3,
-        "Note": "Project Display Surface context menus for both nodes and parallel lines has the unused \u201CProperties\u201D option removed.",
-        "VersionNumber": "0.4.5.1"
-      },
-      {
-        "NoteType": 4,
-        "Note": "Disabled File\\New \u0026 File\\Open until they are more stable",
-        "VersionNumber": "0.4.5.1"
-      }
-    ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
-  },
-  {
-    "Version": "0.4.5.0",
-    "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
-    "ReleaseNotes": [
-      {
-        "NoteType": 1,
-        "Note": "Fix - Resolved right to left issues and word groupings",
-        "VersionNumber": "0.4.5.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Pins verse references now have proper font",
-        "VersionNumber": "0.4.5.0"
+        "Note": "Ability for notes to be associated with composite tokens",
+        "VersionNumber": "1.0.3.2"
       },
       {
         "NoteType": 0,
-        "Note": "Ability to push a note to Paratext.",
-        "VersionNumber": "0.4.5.0"
+        "Note": "A lot more things have been localized",
+        "VersionNumber": "1.0.3.2"
       },
       {
-        "NoteType": 0,
-        "Note": "Ability to select which books of a corpus you want to import into Dashboard.  This gives the end user the ability to skip over work-in-progress books with USFM errors.",
-        "VersionNumber": "0.4.5.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "MARBLE panel includes more information on the parts-of-speech",
-        "VersionNumber": "0.4.5.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "The Enhanced Views now load in parallel instead of sequentially.  This significantly improves project load speeds.",
-        "VersionNumber": "0.4.5.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "Text Collections to include styling from Paratext",
-        "VersionNumber": "0.4.5.0"
-      },
-      {
-        "NoteType": 4,
-        "Note": "MARBLE source/english word searching",
-        "VersionNumber": "0.4.5.0"
-      },
-      {
-        "NoteType": 4,
-        "Note": "The bug in the trees pertaining to unicode, where a character\u0027s modifying unicode character is in the next leaf, resulting in what looks like a \u0027zero\u0027 with a modifying character above/below, has not been resolved.",
-        "VersionNumber": "0.4.5.0"
-      },
-      {
-        "NoteType": 4,
-        "Note": "Malachi 4 is not being versified properly.",
-        "VersionNumber": "0.4.5.0"
-      },
-      {
-        "NoteType": 4,
-        "Note": "The Dashboard book chapter verse control does not affect Paratext",
-        "VersionNumber": "0.4.5.0"
+        "NoteType": 2,
+        "Note": "AQuA is now hidden in the settings menu and users must restart the application to enable/disable it",
+        "VersionNumber": "1.0.3.2"
       },
       {
         "NoteType": 5,
-        "Note": "Change - Changes were made to the database schema to allow for only selecting certain books to be tokenized",
-        "VersionNumber": "0.4.5.0"
+        "Note": "Change - Added IsSymmeterized to AlignmentSet database model",
+        "VersionNumber": "1.0.3.2"
       }
     ],
     "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
   },
   {
-    "Version": "0.4.4.0",
+    "Version": "1.0.2.0",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "3/28/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
-        "Note": "Project Version number to start up.  Red means that the project is not compatible with the current version of dashboard.",
-        "VersionNumber": "0.4.4.0"
+        "Note": "Hmm, IBM4, and non-symmetrized are now alignment options",
+        "VersionNumber": "1.0.2.0"
       },
       {
-        "NoteType": 0,
-        "Note": "Marble tab that shows visuals on how a word is commonly translated",
-        "VersionNumber": "0.4.4.0"
+        "NoteType": 1,
+        "Note": "Fix - right-clicking composite tokens now updates selection after joining/unjoining",
+        "VersionNumber": "1.0.2.0"
       },
       {
-        "NoteType": 3,
-        "Note": "Replaced the Word Meanings panel with the MARBLE panel.  This is a much deeper dive into the SDBH/SDBG database unveiling lots of additional data for each word.  Note that this panel is a work in progress.",
-        "VersionNumber": "0.4.4.0"
+        "NoteType": 1,
+        "Note": "Fix - Hebrew Vowels are no longer misplaced",
+        "VersionNumber": "1.0.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Setting language in ProjectPicker now persists to MainView",
+        "VersionNumber": "1.0.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Opening Dashboard with Paratext on but the Dashboard Plugin off results in the proper text displayed on the Dashboard startup screen",
+        "VersionNumber": "1.0.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The tokenization queue now properly reacts when a corpus is deleted or canceled",
+        "VersionNumber": "1.0.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Visual and scrolling issues in the General Information part of the Marble tab have been fixed",
+        "VersionNumber": "1.0.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The notes indicator did not go away on works if they were not highlighted while the note was being removed",
+        "VersionNumber": "1.0.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Adding back a corpus while it was also being deleted caused an error.",
+        "VersionNumber": "1.0.2.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Text is now copyable out of the Background tasks window",
+        "VersionNumber": "1.0.2.0"
       },
       {
         "NoteType": 2,
-        "Note": "Release Notes window now appears on the startup screen and includes full history of release notes separated by version number.  Also now notes when there is a breaking change",
-        "VersionNumber": "0.4.4.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Resolved issue where Hebrew did not display right to left",
-        "VersionNumber": "0.4.4.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - The Enhanced VIew would sometimes report that a corpus was not within a verse range when it actually was.",
-        "VersionNumber": "0.4.4.0"
-      },
-      {
-        "NoteType": 5,
-        "Note": "Change - Added AppVersion column to project database",
-        "VersionNumber": "0.4.4.0"
+        "Note": "Textboxes and buttons in the alignment dialog will be disabled while alignments are running",
+        "VersionNumber": "1.0.2.0"
       }
     ],
     "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
   },
   {
-    "Version": "0.4.3.0",
+    "Version": "1.0.1.0",
     "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
+    "ReleaseDate": "3/28/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
-        "Note": "Create Project button when searched project doesn\u2019t appear",
-        "VersionNumber": "0.4.3.0"
-      },
-      {
-        "NoteType": 2,
-        "Note": "Enhanced View now has been wired up to show the preferred FontFamily as designated by the project settings in Paratext",
-        "VersionNumber": "0.4.3.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Hebrew is now Right to Left in alignment verse displays",
-        "VersionNumber": "0.4.3.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - verse display now updates when the project consists of just a NT corpus from Paratext that was added when the Current Bcv was set to be in the OT",
-        "VersionNumber": "0.4.3.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Handled pins exceptions in the case of a new paratext project that might lack certain datasets",
-        "VersionNumber": "0.4.3.0"
+        "Note": "Notes list tab that allows users to see and search through all their notes in ClearDashboard",
+        "VersionNumber": "1.0.1.0"
       },
       {
         "NoteType": 0,
-        "Note": "Plumbed up the project\u2019s default font from the Paratext\u2019s settings through to the Enhanced View.  Note, currently the VerseDisplay component still does not correctly display the right font.",
-        "VersionNumber": "0.4.3.0"
+        "Note": "Heatmap to AQuA",
+        "VersionNumber": "1.0.1.0"
       },
       {
         "NoteType": 0,
-        "Note": "On the Creation of Parallel Alignments/Interlinear dialogs, there is a new button on the first wizard page by which the user can just run through all the default settings without user interaction.",
-        "VersionNumber": "0.4.3.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Note is selected event",
-        "VersionNumber": "0.4.3.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Multi-Deselect issue fixed",
-        "VersionNumber": "0.4.3.0"
+        "Note": "Experimental alignment triangulation feature",
+        "VersionNumber": "1.0.1.0"
       },
       {
         "NoteType": 3,
-        "Note": "Notes display and interactivity",
-        "VersionNumber": "0.4.3.0"
+        "Note": "ReleaseNotes window is now faster to load and can scrollable with the mouse wheel",
+        "VersionNumber": "1.0.1.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resolved issue where changing Dashboard language to simplified Chinese would freeze everything",
+        "VersionNumber": "1.0.1.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resolved potential issue with deleting incorrect alignments",
+        "VersionNumber": "1.0.1.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resolved issue with alignment highlighting not appearing",
+        "VersionNumber": "1.0.1.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix -  Right clicking on a composite token after joining produced an error",
+        "VersionNumber": "1.0.1.0"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
+  },
+  {
+    "Version": "1.0.0.0",
+    "VersionType": 1,
+    "ReleaseDate": "3/28/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Experimental AQUA interfaces have been added. This is very much a work-in-progress experimentation and will be refined as the project progresses.",
+        "VersionNumber": "1.0.0.0"
       },
       {
         "NoteType": 0,
-        "Note": "New menu Help\\Show Logs which will launch the current log file into a new window for display",
-        "VersionNumber": "0.4.3.0"
+        "Note": "Experimental alignment editing and deleting functionality has been added to this release. When there is an alignment between a source composite token and a target token in another verse, highlighting the tokens only works if you shift-hover over the target token in the other verse. To create an alignment, click on the source token (composite or regular), then shift-click on the target token. You will need to shift-hover to see the newly added alignment. To delete an alignment, shift hover to find the alignment. You can delete the alignment form either the source or target token.",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "New dialog for interlinear changes where lexemes can be added to translations.",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 0,
+        "Note": "shortcut to open list of projects with Ctrl \u002B O",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 2,
+        "Note": "added mouse wheel scrolling for elements in the Marble pane",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Allow corpora to be deleted when the background status is completed yet still in the background status window",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - On the interlinear approval/modification dialog, clicking on the \u201CApply Translation\u201D button now will work at properly approving the selected word even if no changes have been made.",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Addressed copy issues in Biblical Terms pane",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - addressed issues in TextCollections including RTL languages and missing TND content",
+        "VersionNumber": "1.0.0.0"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Some texts in TextCollections weren\u2019t being highlighted",
+        "VersionNumber": "1.0.0.0"
       },
       {
         "NoteType": 4,
-        "Note": "There are upcoming changes to Notes that are not included in this release.",
-        "VersionNumber": "0.4.3.0"
-      }
-    ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
-  },
-  {
-    "Version": "0.4.2.0",
-    "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
-    "ReleaseNotes": [
-      {
-        "NoteType": 0,
-        "Note": "Additional modeling of the Notes Threading framework.",
-        "VersionNumber": "0.4.2.0"
+        "Note": "Notes list with filtering and a way to quickly mark notes \u2018resolved\u2019 will be released in a subsequent version.",
+        "VersionNumber": "1.0.0.0"
       },
       {
-        "NoteType": 0,
-        "Note": "Recognition of Daughter project types in the Project Design Surface",
-        "VersionNumber": "0.4.2.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Right clicking on a word in the Enhanced view allows the option to filter Pins by that word.",
-        "VersionNumber": "0.4.2.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Right clicking on a word (or group of selected words) in the Enhanced view allows the option to quickly translate that word using Google translate.",
-        "VersionNumber": "0.4.2.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Tooltip in pins on XmlSource badges with the path of the source file for the data",
-        "VersionNumber": "0.4.2.0"
-      },
-      {
-        "NoteType": 2,
-        "Note": "The word senses button in word meanings now appears disabled when total senses = 1",
-        "VersionNumber": "0.4.2.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Removed ILogger casting issue",
-        "VersionNumber": "0.4.2.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where using Project/All radio buttons in Biblical Terms would delete all rows.",
-        "VersionNumber": "0.4.2.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where Content was not appearing in the right window of Biblical Terms.",
-        "VersionNumber": "0.4.2.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where some Verse Ref buttons appear to have no verse refs when in fact they did.  This fix also sped up Pins loading times.",
-        "VersionNumber": "0.4.2.0"
-      }
-    ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
-  },
-  {
-    "Version": "0.4.1.0",
-    "VersionType": 1,
-    "ReleaseDate": "1/9/2023",
-    "ReleaseNotes": [
-      {
-        "NoteType": 0,
-        "Note": "About box which shows version information",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Dashboard now checks for updates and displays this Change Log information about what has been added, updated, changed, bug fixed or deferred.",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Ability to send end user\u2019s Dashboard log files, Paratext Log files and the users computer information; including encryption status",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Additional modeling of the Notes framework.",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "Did internal testing on the effects of drive encryption on database usage.  The use of drive encryption only slows down Dashboard by a relatively small percentage.",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "Pins now includes verse references drawn from Paratext\u2019s Interlinear_*.xml files",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "Word senses button in word meanings control enabled.",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "the verse display code in regard to notes, labels and mouse events.",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed shutdown/dispose exception handler",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed never-ending progress wheel when clicking on the verse reference button in Pins.",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where spamming BCV control in Paratext or Dashboard results in constant change of current BCV.",
-        "VersionNumber": "0.4.1.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Fixed issue where sometimes changing chapters via the verse up/down button in the BCV control doesn\u2019t result in the correct BCV.",
-        "VersionNumber": "0.4.1.0"
+        "NoteType": 4,
+        "Note": "Notes sharing will be released in a subsequent version.",
+        "VersionNumber": "1.0.0.0"
       }
     ],
     "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5"
