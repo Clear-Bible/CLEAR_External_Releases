@@ -1,8 +1,179 @@
 [
   {
+    "Version": "1.0.5.6",
+    "VersionType": 0,
+    "ReleaseDate": "5/10/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 2,
+        "Note": "Darkened text collection highlight color",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Explanatory text for Latin Word Tokenizer option saying that it is the \u201Cmost common\u201D",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Update database button to reset verse mappings to default versification",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Deleting either a Project Design Surface node or parallel corpus line will also remove any references from the Enhanced Views",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "\u201CCreate New Interlinear\u201D menu item functionality added off of the right click menu of a connector line.",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "\u201CCreate New Alignment\u201D menu item functionality",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to delete individual alignments and interlinears from the Project Design Surface\u2019s right click context menus.",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to view a corpus in a database even if the user\u2019s doesn\u2019t have access to that corpus in Paratext",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Menu item to Help section of menu to pull up documentation",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Right click on a token and filter Pins by Key Terms and use radio buttons to filter Pins by XmlSource in Pins Pane",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Notes now updated when a tokenized Text corpus is updated",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "In an alignment view, unaligned words are colored grey while aligned words are colored black",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Notes on composite tokens can now be passed to Paratext",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Proper Fonts are now displayed in Marble and Lexicon dialog.",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Removed Hebrew chapter tags from USFM to prevent them from appearing as text in a translation",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "A project now will render all the versification mappings for the entire Bible instead of only those books that were imported.  This is being done to avoid issues later on if the user decides to import additional books that were not included in the first import.  Old databases built under the original format will now display a button on the project picking window that will ask if the user wants to update to the new versification format.  Doing this will rebuild the entire versification mappings throughout the Dashboard process.",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "A project can now no longer be open in multiple instances of Dashboard at the same time",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Resources in the Project Design Surface are now colored as green instead of blue as projects",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Dashboard will now show a disconnect and play a sound when the plugin is closed in Paratext.",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "The default percentage of the lower dock windows has been raised up to better accommodate a larger view.",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "EnhancedViews can now no longer be deleted while loading",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "The VC\u002B\u002B runtime no longer installs every time ClearDashboard is installed",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "The Lower Panes are now taller",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Notes Pane UI",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Made Text Collections navigation bar sticky and smaller",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "The verse mapping between two corpora has been completely rewritten to provide for more text coverage and provide for expected performance gains.",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Note replies UI",
+        "VersionNumber": "1.0.5.6"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Many small quality of life changes to the world clock",
+        "VersionNumber": "1.0.5.6"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
+    "KnownIssues": [
+      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
+      "If the user needs to change the project that Paratex is connected to, in Paratext, they must first close any existing instances of the Dashboard Plugin.  Then open a new instance from the project they want to connect to.  Then finally, restart both Paratext and Dashboard",
+      "Not everything is localized.",
+      "There is a display issue with the Hebrew text where characters sometimes are out of order that is being worked on.",
+      "In the EnhancedView mouse hover on the MACULA tokens, currently only shows the pronominal references for the OT. NT pronominal references will be coming in a future release.",
+      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type.",
+      "Canceling parallelization midway through doesn\u2019t delete the arrow.  Trying to delete the arrow itself will display an error message."
+    ]
+  },
+  {
+    "Version": "1.0.4.1",
+    "VersionType": 0,
+    "ReleaseDate": "5/10/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 1,
+        "Note": "Fix - Solved issue of Update link not appearing for full release",
+        "VersionNumber": "1.0.4.1"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
+    "KnownIssues": []
+  },
+  {
     "Version": "1.0.4.0",
     "VersionType": 0,
-    "ReleaseDate": "3/28/2023",
+    "ReleaseDate": "5/10/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -30,20 +201,13 @@
         "VersionNumber": "1.0.4.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
-    "KnownIssues": [
-      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
-      "If the user needs to change the project that Paratex is connected to, in Paratext, they must first close any existing instances of the Dashboard Plugin.  Then open a new instance from the project they want to connect to.  Then finally, restart both Paratext and Dashboard",
-      "Not everything is localized.",
-      "There is a display issue with the Hebrew text where characters sometimes are out of order that is being worked on.",
-      "In the EnhancedView mouse hover on the MACULA tokens, currently only shows the pronominal references for the OT. NT pronominal references will be coming in a future release.",
-      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type."
-    ]
+    "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
+    "KnownIssues": []
   },
   {
     "Version": "1.0.3.2",
     "VersionType": 0,
-    "ReleaseDate": "3/28/2023",
+    "ReleaseDate": "5/10/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -66,13 +230,13 @@
         "VersionNumber": "1.0.3.2"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
     "KnownIssues": []
   },
   {
     "Version": "1.0.2.0",
     "VersionType": 0,
-    "ReleaseDate": "3/28/2023",
+    "ReleaseDate": "5/10/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -130,13 +294,13 @@
         "VersionNumber": "1.0.2.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
     "KnownIssues": []
   },
   {
     "Version": "1.0.1.0",
     "VersionType": 0,
-    "ReleaseDate": "3/28/2023",
+    "ReleaseDate": "5/10/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -179,13 +343,13 @@
         "VersionNumber": "1.0.1.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
     "KnownIssues": []
   },
   {
     "Version": "1.0.0.0",
     "VersionType": 0,
-    "ReleaseDate": "3/28/2023",
+    "ReleaseDate": "5/10/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -248,7 +412,7 @@
         "VersionNumber": "1.0.0.0"
       }
     ],
-    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
     "KnownIssues": []
   }
 ]
