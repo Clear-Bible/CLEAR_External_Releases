@@ -24,9 +24,6 @@ SOFTWARE.
 
 # Encrypted Glosses Licenses
 
-## CSB (Christian Standard Bible)
-Scripture quotations marked CSB have been taken from the Christian Standard Bible®, Copyright © 2017 by Holman Bible Publishers. Used by permission. Christian Standard Bible® and CSB® are federally registered trademarks of Holman Bible Publishers.
-
 ## HLTGBI (Matupi Chin Standard Bible 2019)
 
 Public Domain [https://ebible.org/details.php?id=hltmcsb]
