@@ -11,7 +11,7 @@
       },
       {
         "NoteType": 2,
-        "Note": "Now not able able to select books in tokenization dialog until USFM has finished being scanned for errors",
+        "Note": "Prevented selecting books in tokenization dialog before USFM has finished being scanned for errors",
         "VersionNumber": "1.0.5.7"
       },
       {
