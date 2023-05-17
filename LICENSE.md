@@ -29,16 +29,16 @@ Scripture quotations marked CSB have been taken from the Christian Standard Bibl
 
 ## HLTGBI (Matupi Chin Standard Bible 2019)
 
-Public Domain [][https://ebible.org/details.php?id=hltmcsb]
+Public Domain [https://ebible.org/details.php?id=hltmcsb]
 
 ## LEB (Lexham English Bible)
 
-[][https://lexhampress.com/LEB-License]
+[https://lexhampress.com/LEB-License]
 
 ## NET (NET Bible)
 
-[][https://netbible.com/copyright/]
+[https://netbible.com/copyright/]
 
 ## KJV (King James Version)
 
-[][https://www.cambridge.org/us/bibles/about/rights-and-permissions/rights-and-permissions-kjv]
+[https://www.cambridge.org/us/bibles/about/rights-and-permissions/rights-and-permissions-kjv]
