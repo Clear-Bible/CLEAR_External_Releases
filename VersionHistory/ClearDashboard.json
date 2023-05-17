@@ -1,8 +1,40 @@
 [
   {
+    "Version": "1.0.5.7",
+    "VersionType": 0,
+    "ReleaseDate": "5/16/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 1,
+        "Note": "Fix - Extra enhanced view tabs are no longer deleted upon closing and reopening the application.",
+        "VersionNumber": "1.0.5.7"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Now not able able to select books in tokenization dialog until USFM has finished being scanned for errors",
+        "VersionNumber": "1.0.5.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The current ClearDashboard project name now appears at the top of the application when a new project is created",
+        "VersionNumber": "1.0.5.7"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
+    "KnownIssues": [
+      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
+      "If the user needs to change the project that Paratex is connected to, in Paratext, they must first close any existing instances of the Dashboard Plugin.  Then open a new instance from the project they want to connect to.  Then finally, restart both Paratext and Dashboard",
+      "Not everything is localized.",
+      "There is a display issue with the Hebrew text where characters sometimes are out of order that is being worked on.",
+      "In the EnhancedView mouse hover on the MACULA tokens, currently only shows the pronominal references for the OT. NT pronominal references will be coming in a future release.",
+      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type.",
+      "Canceling parallelization midway through doesn\u2019t delete the arrow.  Trying to delete the arrow itself will display an error message."
+    ]
+  },
+  {
     "Version": "1.0.5.6",
     "VersionType": 0,
-    "ReleaseDate": "5/10/2023",
+    "ReleaseDate": "5/16/2023",
     "ReleaseNotes": [
       {
         "NoteType": 2,
@@ -146,20 +178,12 @@
       }
     ],
     "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
-    "KnownIssues": [
-      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
-      "If the user needs to change the project that Paratex is connected to, in Paratext, they must first close any existing instances of the Dashboard Plugin.  Then open a new instance from the project they want to connect to.  Then finally, restart both Paratext and Dashboard",
-      "Not everything is localized.",
-      "There is a display issue with the Hebrew text where characters sometimes are out of order that is being worked on.",
-      "In the EnhancedView mouse hover on the MACULA tokens, currently only shows the pronominal references for the OT. NT pronominal references will be coming in a future release.",
-      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type.",
-      "Canceling parallelization midway through doesn\u2019t delete the arrow.  Trying to delete the arrow itself will display an error message."
-    ]
+    "KnownIssues": []
   },
   {
     "Version": "1.0.4.1",
     "VersionType": 0,
-    "ReleaseDate": "5/10/2023",
+    "ReleaseDate": "5/16/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -173,7 +197,7 @@
   {
     "Version": "1.0.4.0",
     "VersionType": 0,
-    "ReleaseDate": "5/10/2023",
+    "ReleaseDate": "5/16/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -207,7 +231,7 @@
   {
     "Version": "1.0.3.2",
     "VersionType": 0,
-    "ReleaseDate": "5/10/2023",
+    "ReleaseDate": "5/16/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -236,7 +260,7 @@
   {
     "Version": "1.0.2.0",
     "VersionType": 0,
-    "ReleaseDate": "5/10/2023",
+    "ReleaseDate": "5/16/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -300,7 +324,7 @@
   {
     "Version": "1.0.1.0",
     "VersionType": 0,
-    "ReleaseDate": "5/10/2023",
+    "ReleaseDate": "5/16/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -349,7 +373,7 @@
   {
     "Version": "1.0.0.0",
     "VersionType": 0,
-    "ReleaseDate": "5/10/2023",
+    "ReleaseDate": "5/16/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
