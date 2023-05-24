@@ -1,23 +1,13 @@
 [
   {
-    "Version": "1.0.5.7",
+    "Version": "1.0.5.8",
     "VersionType": 0,
-    "ReleaseDate": "5/16/2023",
+    "ReleaseDate": "5/24/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
-        "Note": "Fix - Extra enhanced view tabs are no longer deleted upon closing and reopening the application.",
-        "VersionNumber": "1.0.5.7"
-      },
-      {
-        "NoteType": 2,
-        "Note": "Prevented selecting books in tokenization dialog before USFM has finished being scanned for errors",
-        "VersionNumber": "1.0.5.7"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - The current ClearDashboard project name now appears at the top of the application when a new project is created",
-        "VersionNumber": "1.0.5.7"
+        "Note": "Fix - Addressed an issue where Licenses weren\u2019t able to decrypt for new users.",
+        "VersionNumber": "1.0.5.8"
       }
     ],
     "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
@@ -32,9 +22,33 @@
     ]
   },
   {
+    "Version": "1.0.5.7",
+    "VersionType": 0,
+    "ReleaseDate": "5/24/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 1,
+        "Note": "Fix - Extra enhanced view tabs are no longer deleted upon closing and reopening the application.",
+        "VersionNumber": "1.0.5.7"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Now not able able to select books in tokenization dialog until USFM has finished being scanned for errors",
+        "VersionNumber": "1.0.5.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The current ClearDashboard project name now appears at the top of the application when a new project is created",
+        "VersionNumber": "1.0.5.7"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1dCpaXhp3OWmNMDNRi-a8fWgqon17Mm22",
+    "KnownIssues": []
+  },
+  {
     "Version": "1.0.5.6",
     "VersionType": 0,
-    "ReleaseDate": "5/16/2023",
+    "ReleaseDate": "5/24/2023",
     "ReleaseNotes": [
       {
         "NoteType": 2,
@@ -183,7 +197,7 @@
   {
     "Version": "1.0.4.1",
     "VersionType": 0,
-    "ReleaseDate": "5/16/2023",
+    "ReleaseDate": "5/24/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -197,7 +211,7 @@
   {
     "Version": "1.0.4.0",
     "VersionType": 0,
-    "ReleaseDate": "5/16/2023",
+    "ReleaseDate": "5/24/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -231,7 +245,7 @@
   {
     "Version": "1.0.3.2",
     "VersionType": 0,
-    "ReleaseDate": "5/16/2023",
+    "ReleaseDate": "5/24/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -260,7 +274,7 @@
   {
     "Version": "1.0.2.0",
     "VersionType": 0,
-    "ReleaseDate": "5/16/2023",
+    "ReleaseDate": "5/24/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -324,7 +338,7 @@
   {
     "Version": "1.0.1.0",
     "VersionType": 0,
-    "ReleaseDate": "5/16/2023",
+    "ReleaseDate": "5/24/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -373,7 +387,7 @@
   {
     "Version": "1.0.0.0",
     "VersionType": 0,
-    "ReleaseDate": "5/16/2023",
+    "ReleaseDate": "5/24/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
