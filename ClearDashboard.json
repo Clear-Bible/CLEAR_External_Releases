@@ -1,103 +1,13 @@
 [
   {
-    "Version": "1.0.6.7",
+    "Version": "1.0.6.8",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
-        "NoteType": 0,
-        "Note": "Collaboration on projects is going into QA Testing on 6/5/2023.  This includes hosting our own private GitLab server for end user repositories.",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Collaboration Manager to automatically add other users to your project, controlled by the repository owner.",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Collaboration creation of new user on GitLab server along with email validation.",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "Verse-by-Verse display option for TextCollections",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 0,
-        "Note": "BackTranslation text has been added to the Verse References dialog of the Pins window and some columns in the Pins tab have been combined.",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "Additional end user metrics flushing and delay on exit to avoid missing data push to server.",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "Aqua endpoint has been updated and now will work again.",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "Fixes to parallel creation steps that better address USFM errors from Paratext",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 3,
-        "Note": "The Pins panel has many minor UI changes, including displaying a verse\u2019s back translation if available.",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 2,
-        "Note": "Tokens now Copy/Paste in original sentence order",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 2,
-        "Note": "Removal of unused Xceed licensing toolset",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 2,
-        "Note": "Alignment clear selection after join/unjoin operations",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
         "NoteType": 1,
-        "Note": "Fix - New user licensing bug",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Joining/Unjoining words in the Enhanced view no longer causes token duplication",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Exiting out of dialog during parallelization now removes arrow from Design Surface",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Text Collections bug where Cyrillic text was not being displayed correctly has been resolved by ensuring that end users have the Noto Serif font on their systems.",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Users are now unable to have the same project open in two instances of dashboard at the same time",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - Resizing the application window now saves between sessions.",
-        "VersionNumber": "1.0.6.0"
-      },
-      {
-        "NoteType": 1,
-        "Note": "Fix - ClearDashboard no longer freezes when starting it up for the first time after installation.",
-        "VersionNumber": "1.0.6.0"
+        "Note": "Fix - Clicking on and then off of the ClearDashboard plugin window in Paratext will no longer close the plugin connection.",
+        "VersionNumber": "1.0.6.8"
       }
     ],
     "DownloadLink": "https://cleardashboard.org/",
@@ -112,9 +22,118 @@
     ]
   },
   {
+    "Version": "1.0.6.7",
+    "VersionType": 0,
+    "ReleaseDate": "7/13/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Collaboration on projects is going into QA Testing on 6/5/2023.  This includes hosting our own private GitLab server for end user repositories.",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Collaboration Manager to automatically add other users to your project, controlled by the repository owner.",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Collaboration creation of new user on GitLab server along with email validation.",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Verse-by-Verse display option for TextCollections",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "BackTranslation text has been added to the Verse References dialog of the Pins window and some columns in the Pins tab have been combined.",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "A link to cleardashboard.org where users can watch instructional videos",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Additional end user metrics flushing and delay on exit to avoid missing data push to server.",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Aqua endpoint has been updated and now will work again.",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Fixes to parallel creation steps that better address USFM errors from Paratext",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 3,
+        "Note": "The Pins panel has many minor UI changes, including displaying a verse\u2019s back translation if available.",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Tokens now Copy/Paste in original sentence order",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Removal of unused Xceed licensing toolset",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Alignment clear selection after join/unjoin operations",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - New user licensing bug",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Joining/Unjoining words in the Enhanced view no longer causes token duplication",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Exiting out of dialog during parallelization now removes arrow from Design Surface",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Text Collections bug where Cyrillic text was not being displayed correctly has been resolved by ensuring that end users have the Noto Serif font on their systems.",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Users are now unable to have the same project open in two instances of dashboard at the same time",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Resizing the application window now saves between sessions.",
+        "VersionNumber": "1.0.6.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - ClearDashboard no longer freezes when starting it up for the first time after installation.",
+        "VersionNumber": "1.0.6.7"
+      }
+    ],
+    "DownloadLink": "https://cleardashboard.org/",
+    "KnownIssues": []
+  },
+  {
     "Version": "1.0.5.8",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -128,7 +147,7 @@
   {
     "Version": "1.0.5.7",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -152,7 +171,7 @@
   {
     "Version": "1.0.5.6",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
         "NoteType": 2,
@@ -301,7 +320,7 @@
   {
     "Version": "1.0.4.1",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -315,7 +334,7 @@
   {
     "Version": "1.0.4.0",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -349,7 +368,7 @@
   {
     "Version": "1.0.3.2",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -378,7 +397,7 @@
   {
     "Version": "1.0.2.0",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -442,7 +461,7 @@
   {
     "Version": "1.0.1.0",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -491,7 +510,7 @@
   {
     "Version": "1.0.0.0",
     "VersionType": 0,
-    "ReleaseDate": "6/21/2023",
+    "ReleaseDate": "7/13/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
