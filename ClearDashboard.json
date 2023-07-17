@@ -1,13 +1,13 @@
 [
   {
-    "Version": "1.0.6.9",
+    "Version": "1.0.6.10",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
-        "NoteType": 1,
-        "Note": "Fix - Sometimes initializing a project with Collab caused an issue.",
-        "VersionNumber": "1.0.6.9"
+        "NoteType": 0,
+        "Note": "Project owners can now add others users as owners on a project.",
+        "VersionNumber": "1.0.6.10"
       }
     ],
     "DownloadLink": "https://cleardashboard.org/",
@@ -22,9 +22,23 @@
     ]
   },
   {
+    "Version": "1.0.6.9",
+    "VersionType": 0,
+    "ReleaseDate": "7/17/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 1,
+        "Note": "Fix - Sometimes initializing a project with Collab caused an issue.",
+        "VersionNumber": "1.0.6.9"
+      }
+    ],
+    "DownloadLink": "https://cleardashboard.org/",
+    "KnownIssues": []
+  },
+  {
     "Version": "1.0.6.8",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -38,7 +52,7 @@
   {
     "Version": "1.0.6.7",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -147,7 +161,7 @@
   {
     "Version": "1.0.5.8",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -161,7 +175,7 @@
   {
     "Version": "1.0.5.7",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -185,7 +199,7 @@
   {
     "Version": "1.0.5.6",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 2,
@@ -334,7 +348,7 @@
   {
     "Version": "1.0.4.1",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -348,7 +362,7 @@
   {
     "Version": "1.0.4.0",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -382,7 +396,7 @@
   {
     "Version": "1.0.3.2",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -411,7 +425,7 @@
   {
     "Version": "1.0.2.0",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -475,7 +489,7 @@
   {
     "Version": "1.0.1.0",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -524,7 +538,7 @@
   {
     "Version": "1.0.0.0",
     "VersionType": 0,
-    "ReleaseDate": "7/14/2023",
+    "ReleaseDate": "7/17/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
