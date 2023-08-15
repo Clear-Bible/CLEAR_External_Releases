@@ -1,8 +1,181 @@
 [
   {
+    "Version": "1.1.0.6",
+    "VersionType": 0,
+    "ReleaseDate": "8/15/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "New Testament Pronominal Reference data now available in the Macula Greek corpus",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Resource corpora can now be updated to include books that weren\u2019t tokenized initially",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Regular users on a shared project can be made owners",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "New users can now send an email to Clear from the Registration window to ask for a license",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Enhanced and streamlined license registration",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "In the Help menu there is an account info page that shows what the user\u2019s Paratext, ClearDashboard, and Collab usernames are at that moment.",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Users are now notified when a project has changes on the server that are not present on their local copy, so they can stay up to date.",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Better notifications if when when Import, Commit, or Get Latest succeeded or failed",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Better syncing notifications for updating when importing projects",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Popup to confirm the users actually does want to delete a project",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Pins improvements: loading is faster, the UI has been streamlined, can now filter by Biblical Languages",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Users can now switch Paratext projects without having to shut down ClearDashboard or Paratext",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Improved Collab Project Management:",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Project Design Surface arrows are now thicker and more clickable",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Notification of newest version has been changed to \u201CUpdate to New Version of ClearDashboard\u201D",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Signing up for Collab is now necessary to continue to use the app.  Account details are updated every time the app is opened.",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Small Timer and Note Delete UI changes",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Some Lexicon UI Polish",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "Other small UI changes",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 2,
+        "Note": "when signing up for Collab all codes sent to you email are treated as valid instead of only the most recent code being valid",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The list of yet to be imported Collab Projects was grayed out when first starting Dashboard",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Adding a new EnhancedView from the MainMenu didn\u2019t work properly",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Clicking on the ClearDashboard Plugin widow in Paratext caused the plugin to disconnect",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - After Restarting Paratext, Dashboard wasn\u2019t able to reconnect without restarting the app",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Whether or not a search term was capitalized affected Pins search results",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The bottom of the Verse Reference window in Pins was being cut off in certain screen resolutions",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Missing localizations in the Collab User Creation Window",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Text in the Psalms weren\u2019t the same in ClearDashboard and Paratext because of how we were handling superscriptions",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix- Handling the case on the ProjectPicker where the server is down",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Solved positioning and cancellation bugs with EnhancedView rename dialog",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Users are now able to get latest changes for collab project with Joined Tokens on the server",
+        "VersionNumber": "1.1.0.6"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - UI now updates Notes replies after merging in from Collab",
+        "VersionNumber": "1.1.0.6"
+      }
+    ],
+    "DownloadLink": "https://cleardashboard.org/",
+    "KnownIssues": [
+      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
+      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type.",
+      "There\u2019s still some spots left in the app that need to be localized."
+    ]
+  },
+  {
     "Version": "1.0.6.10",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -11,20 +184,12 @@
       }
     ],
     "DownloadLink": "https://cleardashboard.org/",
-    "KnownIssues": [
-      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
-      "If the user needs to change the project that Paratex is connected to, in Paratext, they must first close any existing instances of the Dashboard Plugin.  Then open a new instance from the project they want to connect to.  Then finally, restart both Paratext and Dashboard",
-      "Not everything is localized.",
-      "There is a display issue with the Hebrew text where characters sometimes are out of order that is being worked on.",
-      "In the EnhancedView mouse hover on the MACULA tokens, currently only shows the pronominal references for the OT. NT pronominal references will be coming in a future release.",
-      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type.",
-      "Canceling parallelization midway through doesn\u2019t delete the arrow.  Trying to delete the arrow itself will display an error message."
-    ]
+    "KnownIssues": []
   },
   {
     "Version": "1.0.6.9",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -38,7 +203,7 @@
   {
     "Version": "1.0.6.8",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -52,7 +217,7 @@
   {
     "Version": "1.0.6.7",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -161,7 +326,7 @@
   {
     "Version": "1.0.5.8",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -175,7 +340,7 @@
   {
     "Version": "1.0.5.7",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -199,7 +364,7 @@
   {
     "Version": "1.0.5.6",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 2,
@@ -348,7 +513,7 @@
   {
     "Version": "1.0.4.1",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -362,7 +527,7 @@
   {
     "Version": "1.0.4.0",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -396,7 +561,7 @@
   {
     "Version": "1.0.3.2",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -425,7 +590,7 @@
   {
     "Version": "1.0.2.0",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -489,7 +654,7 @@
   {
     "Version": "1.0.1.0",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -538,7 +703,7 @@
   {
     "Version": "1.0.0.0",
     "VersionType": 0,
-    "ReleaseDate": "7/17/2023",
+    "ReleaseDate": "8/15/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
