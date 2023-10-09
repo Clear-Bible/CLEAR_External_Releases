@@ -1,8 +1,165 @@
 [
   {
+    "Version": "1.2.0.7",
+    "VersionType": 0,
+    "ReleaseDate": "10/9/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Ability to send user suggestions directly to the Jira project management board for Dashboard.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Project Template Wizard was added on the project picking screen.  This wizard takes you through building a typical project by just answering some basic questions.  This method allows the user to specify the basic corpora that they want for a project and it will automatically manage the creation of the project and initial views so that the user doesn\u2019t need to monitor the process.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "The Manage Collaboration Projects window now has the ability to delete a project from being shared.  This will clean up files locally and essentially restore your project to being only hosted locally.  Note if there are connected users to your collaboration project, they will also be disconnected from the share and will likewise only have a local copy of the database.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "The ability Edit Alignments through the bulk approval process is now available.  This feature is disabled by default and must be turned on from the Settings panel.  This feature allows a user to manually identify, through a concordance view, aligned word pairs.  The user can then approve or deny alignments within this panel.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Added in the ability for users to associate notes with translations/glosses.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Collab upgrade notification is now extended to the Project Picker screen.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to use either Paratext 9.3.x or Paratext Beta platforms.  This extends to the plugin control which will be installed in Paratext Beta if present.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Filter PINS now works in the interlinear verse display from both SOURCE and TARGET words.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Token splitting aka the ability to split a word into sub words",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Label Groups",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Notes Templates",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Lexicon Importing is now available from the corpus node menu.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Many improvements were made to the user interface and to the user experience to help provide consistency as well as improved program flow.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Allow the user to access the Settings Panel from the project picking screen.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Already imported books can now be updated from Paratext.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Send Message to Clear sent message was made more clear and obvious.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - If a user adds multiple New Meanings and Translations, the dialog window could exceed the screen display.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Expanded View always opened on the wrong screen no matter what display settings were requested in the Settings window.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Previous project\u2019s view was persisting when a new project template is created.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Add new Alignment or Interlinear menu items are removed when there are no remaining options available.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Ensuring that Dashboard does not throw errors when there is no internet.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Addressed a bug related to if a user had made lexicon changes and then pushed those changes to collaboration.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fied the duplicate PINS occurrence in the verse popup",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Addressed an issue when the file path to the collaboration working files on a users machine resulted in a path that exceeded 250 characters long.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Prevented an instance of PINS crashing because an expected file was not present that didn\u2019t allow the completion of the import.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - For notes that are attached to words that were translated by a user, the Book, Chapter and Verse were not being saved with it.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - In the Text Collection window, a bug was fixed where clicking on a reference sometimes scrolled the selected reference to underneath the reference button bar.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix -Fixed a bug with the Collaboration Merge.",
+        "VersionNumber": "1.2.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - If the user hides the lower PINS panel, the panel did not correctly return to visibility and navigate to the panel.",
+        "VersionNumber": "1.2.0.7"
+      }
+    ],
+    "DownloadLink": "https://cleardashboard.org/",
+    "KnownIssues": [
+      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
+      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type."
+    ]
+  },
+  {
     "Version": "1.1.0.6",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -166,16 +323,12 @@
       }
     ],
     "DownloadLink": "https://cleardashboard.org/",
-    "KnownIssues": [
-      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
-      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type.",
-      "There\u2019s still some spots left in the app that need to be localized."
-    ]
+    "KnownIssues": []
   },
   {
     "Version": "1.0.6.10",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -189,7 +342,7 @@
   {
     "Version": "1.0.6.9",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -203,7 +356,7 @@
   {
     "Version": "1.0.6.8",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -217,7 +370,7 @@
   {
     "Version": "1.0.6.7",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -326,7 +479,7 @@
   {
     "Version": "1.0.5.8",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -340,7 +493,7 @@
   {
     "Version": "1.0.5.7",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -364,7 +517,7 @@
   {
     "Version": "1.0.5.6",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 2,
@@ -513,7 +666,7 @@
   {
     "Version": "1.0.4.1",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -527,7 +680,7 @@
   {
     "Version": "1.0.4.0",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -561,7 +714,7 @@
   {
     "Version": "1.0.3.2",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -590,7 +743,7 @@
   {
     "Version": "1.0.2.0",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -654,7 +807,7 @@
   {
     "Version": "1.0.1.0",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -703,7 +856,7 @@
   {
     "Version": "1.0.0.0",
     "VersionType": 0,
-    "ReleaseDate": "8/15/2023",
+    "ReleaseDate": "10/9/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
