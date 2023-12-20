@@ -1,8 +1,117 @@
 [
   {
-    "Version": "1.2.0.10",
+    "Version": "1.3.0.7",
     "VersionType": 0,
-    "ReleaseDate": "10/12/2023",
+    "ReleaseDate": "12/20/2023",
+    "ReleaseNotes": [
+      {
+        "NoteType": 0,
+        "Note": "Imported lexicons can now be edited",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Notes from Paratext can now be viewed using an overlay on the EnhancedView",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "ClearDashboard can now run and open projects independently from Paratext",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Multiple tokens can now be selected in the EnhancedView by dragging over them",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "The option to use a Chinese Tokenizer (Beta)",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Users can now send USFM files directly to Clear through the application for troubleshooting help",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "After pulling in changes from Paratext for a corpus, all machine alignments for that corpus will recalculate",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "After clicking, \u201CGet Latest From Paratext\u201D, Books with USFM errors are now marked as such in the book selection dialog",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to change language in Project Setup Wizard",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 0,
+        "Note": "Ability to deactivate and switch between different licenses",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 3,
+        "Note": "Arrows used to navigate the Book-Chapter-Verse are now vertically centered",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Improved corpus tokenization and USFM error detection.  Corpora with partial verses (e.g. 6a, 6b) can now be imported and corpora with duplicate verses are now marked as containing USFM errors.",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The Project Template Wizard UI was modified to account for smaller screens (1280 x 720) so that buttons weren\u2019t cut off.",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - A minimum window size was set for the App to prevent it from being shrunk to an unusable size",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Made notes filtering by associations more exact, disabled fuzzy search unless more than 7 characters are entered",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - The Collab \u201CSend\u201D button is now disabled if there are changes on the remote that a user needs to pull in",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Users removed from a Collab project no longer have the project they were removed from appearing in the Collab Management window",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Several fixes related to sharing composite and split tokens via Collab",
+        "VersionNumber": "1.3.0.7"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Previously couldn\u2019t copy composite tokens",
+        "VersionNumber": "1.3.0.7"
+      }
+    ],
+    "DownloadLink": "https://cleardashboard.org/",
+    "KnownIssues": [
+      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
+      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type.",
+      "Sending \u201Cseen\u201D information for replies over collab is non-functional. This will be resolved in a hotfix that will ship in January 2024.",
+      "There is a bug within the Chinese word parser which causes it to crash on certain Old Testament books.  The books with the issue are currently not being imported until the issue can be resolved.  Any books that are imported can be utilized within ClearDashboard normally."
+    ]
+  },
+  {
+    "Version": "1.2.0.8",
+    "VersionType": 0,
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -151,15 +260,12 @@
       }
     ],
     "DownloadLink": "https://cleardashboard.org/",
-    "KnownIssues": [
-      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
-      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type."
-    ]
+    "KnownIssues": []
   },
   {
     "Version": "1.1.0.6",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -328,7 +434,7 @@
   {
     "Version": "1.0.6.10",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -342,7 +448,7 @@
   {
     "Version": "1.0.6.9",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -356,7 +462,7 @@
   {
     "Version": "1.0.6.8",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -370,7 +476,7 @@
   {
     "Version": "1.0.6.7",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -479,7 +585,7 @@
   {
     "Version": "1.0.5.8",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -493,7 +599,7 @@
   {
     "Version": "1.0.5.7",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -517,7 +623,7 @@
   {
     "Version": "1.0.5.6",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 2,
@@ -666,7 +772,7 @@
   {
     "Version": "1.0.4.1",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -680,7 +786,7 @@
   {
     "Version": "1.0.4.0",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -714,7 +820,7 @@
   {
     "Version": "1.0.3.2",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -743,7 +849,7 @@
   {
     "Version": "1.0.2.0",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -807,7 +913,7 @@
   {
     "Version": "1.0.1.0",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -856,7 +962,7 @@
   {
     "Version": "1.0.0.0",
     "VersionType": 0,
-    "ReleaseDate": "10/9/2023",
+    "ReleaseDate": "12/20/2023",
     "ReleaseNotes": [
       {
         "NoteType": 0,
