@@ -1,88 +1,88 @@
 [
   {
-    "Version": "1.4.0.12",
+    "Version": "1.4.0.15",
     "VersionType": 0,
     "ReleaseDate": "3/29/2024",
     "ReleaseNotes": [
       {
         "NoteType": 3,
         "Note": "The entire Dashboard Notes system has been redesigned and updated.  This includes renaming it to \u201CJots\u201D to help differentiate between Paratext Notes and our internal notes. The right panel to add/view notes has been removed and in its place is now windows that pop up. This more mirrors the notes user experience in Paratext and also frees up additional horizontal space on the Dashboard Views.  Existing Paratext label groups can be pulled in from Paratext by right clicking on a project node in the Project Design Surface using the \u201CImport existing Labels and Groups\u201D menu item.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 3,
         "Note": "The lower panel previously named \u201CNotes\u201D has been renamed to \u201CJots\u201D.  Like the Views, this window has been redesigned to remove the right panel for viewing the jot and instead uses a popup window to show/edit the note.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 0,
         "Note": "In the lower Jots window, you now have the ability to do bulk actions including; turn all selected jots into Open Jots, turn all selected jots into Closed Jots, and send all selected jots to Paratext as a note.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 3,
         "Note": "In the Views, Jots were defined by the token(s) having an underline underneath them.  This has been updated to now have an orange comment icon before the first token in a Jot group.  This functionality is similar to the way that our current implementation of External Notes (notes from Paratext) behaves.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - Fixed a bug with the Chinese tokenizer causing an error in collaboration",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - Fixed a display issue with the \u201CSend Message to Clear\u201D screen being too tall so that the user cannot get to the send/cancel buttons.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 3,
         "Note": "Reduced the time it takes for the display to add a new item from the Project Display Surface.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - Fixed a bug with the \u201CMake New Collab User\u201D popping up for certain users.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - Provided a fix for when the collaboration import wants to create a project with the same name as an existing project on the system.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - Fix for \u201CCollab Changes Available\u201D not being displayed on the project picker if the user opens a project by the File/Open menu path.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - Fix for a corpus deletion issue when deleted from the Project Design Surface.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - Fix for a freeze that happened during some tokenization processes.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 3,
         "Note": "Paratext is now required to be running during all Dashboard operations.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - The project icon now reverts back to being local only after the project has been removed from collaboration.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - for the Project Template Wizard failure in certain cases.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       },
       {
         "NoteType": 1,
         "Note": "Fix - Removed UI Freezes from adding in the Hebrew or Greek MACULA corpora to the Project Design Surface.",
-        "VersionNumber": "1.4.0.12"
+        "VersionNumber": "1.4.0.15"
       }
     ],
     "DownloadLink": "https://cleardashboard.org/",
