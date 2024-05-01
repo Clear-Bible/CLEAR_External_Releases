@@ -1,8 +1,35 @@
 [
   {
+    "Version": "1.4.1.2",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
+    "ReleaseNotes": [
+      {
+        "NoteType": 3,
+        "Note": "The latest version of SIL Converters (version 5.2.5) breaks our Paratext plugin.  If you use the Converters tool, you must now be updated to the version 5.2.5 in order for the Dashboard plugin to work without conflicts.",
+        "VersionNumber": "1.4.1.2"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed some exceptions when working with dirty Paratext data.",
+        "VersionNumber": "1.4.1.2"
+      },
+      {
+        "NoteType": 1,
+        "Note": "Fix - Fixed case when Jot\u2019s replies that were sent to Paratext didn\u2019t position themselves correctly on the referenced token but instead ended up at the verse level.",
+        "VersionNumber": "1.4.1.2"
+      }
+    ],
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": [
+      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
+      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type."
+    ]
+  },
+  {
     "Version": "1.4.0.15",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 3,
@@ -85,16 +112,13 @@
         "VersionNumber": "1.4.0.15"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
-    "KnownIssues": [
-      "For the beta users who had two Dashboard plugin instances in their Paretext menu, the new installer will correct that issue. However, depending on the menu item you previously selected, you may end up with Paratext complaining that the plugin can no longer be found. Just delete that window and then use the menus to open a new instance of the plugin.",
-      "There is a Paratext bug for project types outside the normal set. If you try to load up a new Paratext Corpus and the list of projects is blank, this is a good indicator that this bug is affecting you.  Please contact Clear and we can help diagnose which project is the problem project type."
-    ]
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
+    "KnownIssues": []
   },
   {
     "Version": "1.3.0.7",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -192,13 +216,13 @@
         "VersionNumber": "1.3.0.7"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.2.0.8",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -346,13 +370,13 @@
         "VersionNumber": "1.2.0.8"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.1.0.6",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -515,13 +539,13 @@
         "VersionNumber": "1.1.0.6"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.6.10",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -529,13 +553,13 @@
         "VersionNumber": "1.0.6.10"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.6.9",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -543,13 +567,13 @@
         "VersionNumber": "1.0.6.9"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.6.8",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -557,13 +581,13 @@
         "VersionNumber": "1.0.6.8"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.6.7",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -666,13 +690,13 @@
         "VersionNumber": "1.0.6.7"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.5.8",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -680,13 +704,13 @@
         "VersionNumber": "1.0.5.8"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.5.7",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -704,13 +728,13 @@
         "VersionNumber": "1.0.5.7"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.5.6",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 2,
@@ -853,13 +877,13 @@
         "VersionNumber": "1.0.5.6"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.4.1",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -867,13 +891,13 @@
         "VersionNumber": "1.0.4.1"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.4.0",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 1,
@@ -901,13 +925,13 @@
         "VersionNumber": "1.0.4.0"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.3.2",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -930,13 +954,13 @@
         "VersionNumber": "1.0.3.2"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.2.0",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -994,13 +1018,13 @@
         "VersionNumber": "1.0.2.0"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.1.0",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -1043,13 +1067,13 @@
         "VersionNumber": "1.0.1.0"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   },
   {
     "Version": "1.0.0.0",
-    "VersionType": 0,
-    "ReleaseDate": "3/29/2024",
+    "VersionType": 1,
+    "ReleaseDate": "5/1/2024",
     "ReleaseNotes": [
       {
         "NoteType": 0,
@@ -1112,7 +1136,7 @@
         "VersionNumber": "1.0.0.0"
       }
     ],
-    "DownloadLink": "https://cleardashboard.org/",
+    "DownloadLink": "https://drive.google.com/drive/folders/1x4-4vjZS4AM6HNehp6XX66TZP68Q68f5",
     "KnownIssues": []
   }
 ]
